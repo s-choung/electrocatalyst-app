@@ -80,7 +80,7 @@ function App() {
         </header>
 
         {/* Main Content - Centered within canvas area */}
-        <div className="absolute inset-0 flex items-center justify-center px-6 py-20 pointer-events-none">
+        <div className="absolute inset-0 z-5 flex items-center justify-center px-6 py-20 pointer-events-none">
           <div className="flex flex-col items-center pointer-events-auto">
             {/* Title */}
             <div className="mb-12 text-center">
